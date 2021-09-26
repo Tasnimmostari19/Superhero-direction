@@ -1,0 +1,11 @@
+.scientise-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.person-div{
+    border-right: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}

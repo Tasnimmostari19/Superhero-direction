@@ -1,0 +1,19 @@
+.person{
+  text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+}
+.person img{
+    height: 200px;
+}
+.button{
+    background-color: lightsalmon;
+    width: 200px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
