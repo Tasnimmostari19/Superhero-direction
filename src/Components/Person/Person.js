@@ -2,7 +2,7 @@ import React from 'react';
 import './Person.css'
 
 const Person = (props) => {
-    console.log(props.person);
+    // console.log(props);
     const { name, died, born, Nationality, img, salary } = props.person
     return (
 
@@ -13,7 +13,7 @@ const Person = (props) => {
             <h5>Born:{born}</h5>
             <h5>Salary:{salary}</h5>
             <h5>Nationality:{Nationality}</h5>
-            <button className='button'>Add</button>
+            <button onClick={() => props.handleCart(props.person)} className='button'>Add</button>
         </div>
 
     );
