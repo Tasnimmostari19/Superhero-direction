@@ -1,6 +1,12 @@
 # Top Scientists
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To see project [Click Here](https://zen-kalam-fd49ac.netlify.app/).
+
+
+Markup : 
+*This site will show simple informations about some top scientists.
+*This site is created using react js.
+*This site is using some fake dataset
 
 ## Available Scripts
 
