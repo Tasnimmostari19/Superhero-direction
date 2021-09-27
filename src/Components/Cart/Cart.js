@@ -6,7 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Cart = (props) => {
     const { cart } = props;
-    // console.log(cart);
+    console.log(cart.length);
     let name = '';
     let total = 0;
     for (const person of cart) {
@@ -15,9 +15,10 @@ const Cart = (props) => {
     }
     return (
         <div className='cart'>
-            <h5>Total: ${total}</h5>
+            <h4>Total: ${total}</h4>
 
-            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faUser} /><span> {cart.length}</span>
+
 
             <br />
             <h3 className='name'>{name}</h3>

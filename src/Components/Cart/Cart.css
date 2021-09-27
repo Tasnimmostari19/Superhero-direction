@@ -1,6 +1,9 @@
 .name{
-    width: 170px;
+    width: 160px;
 }
 .cart{
     margin: 30px;
+}
+span{
+    font-weight: 500;
 }
